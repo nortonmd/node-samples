@@ -1,0 +1,77 @@
+<div class="container">
+   <form class="well form-horizontal" action="https://##########-producer.herokuapp.com/submit" method="post"  id="contact_form">
+      <fieldset>
+         <!-- Form Name -->
+         <legend>
+            <center>
+               <h2><b>Reservation Form</b></h2>
+            </center>
+         </legend>
+         <br>
+         <!-- Text input-->
+         <div class="form-group">
+            <label class="col-md-4 control-label">First Name</label>  
+            <div class="col-md-4 inputGroupContainer">
+               <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+               </div>
+            </div>
+         </div>
+         <!-- Text input-->
+         <div class="form-group">
+            <label class="col-md-4 control-label" >Last Name</label> 
+            <div class="col-md-4 inputGroupContainer">
+               <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+               </div>
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-md-4 control-label">Status</label>
+            <div class="col-md-4 selectContainer">
+               <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                  <select name="status" class="form-control selectpicker">
+                     <option value="">Select Status Type</option>
+                     <option>pickup</option>
+                     <option>delivery</option>
+                     <option>shipping</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-md-4 control-label" >Date</label> 
+            <div class="col-md-4 inputGroupContainer">
+               <div class="input-group date" data-provide="datepicker">
+                  <input name="date" type="text" class="form-control" placeholder="Date">
+                  <div class="input-group-addon">
+                     <span class="glyphicon glyphicon-th"></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-md-4 control-label" >Customer ID</label> 
+            <div class="col-md-4 inputGroupContainer">
+               <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input name="customer_id" placeholder="Customer ID" class="form-control"  type="text">
+               </div>
+            </div>
+         </div>
+         <!-- Select Basic -->
+         <!-- Success message -->      
+         <!-- Button -->
+         <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4"><br>
+               &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+            </div>
+         </div>
+      </fieldset>
+   </form>
+</div>
+</div><!-- /.container -->
