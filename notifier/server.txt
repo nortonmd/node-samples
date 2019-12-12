@@ -12,7 +12,7 @@ DATABASE_URL += '?ssl=true';
 const client = new Client(DATABASE_URL);
 
 (async() => {
-    await conn.login('ssh@u-haul.demo', 'abc123abc');
+    await conn.login('########', '########');
     await client.connect((error, client) => {
         if(error) throw error;
         

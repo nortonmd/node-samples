@@ -19,7 +19,7 @@ const kafka = new Kafka({
     }
 });
 
-const consumer = kafka.consumer({ groupId: 'u-haul' });
+const consumer = kafka.consumer({ groupId: '#######' });
 
 const knex = require('knex')({
     client: 'postgres',
