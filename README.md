@@ -1,4 +1,4 @@
-# uhaul
+# node-samples
 
 ### Overview
 
@@ -6,7 +6,7 @@ This repo contains sample code for a series of apps in Heroku, and demonstrates 
 
 The sequence is:
 
-1. User provides input to a web form [here](http://uhaul-form.herokuapp.com), 
+1. User provides input to a web form,
 1. then the [web form app](/form/) sends a message to the [producer app](/producer/), 
 1. which puts that message to [Kafka](https://www.heroku.com/kafka) (running on Heroku).
 1. The [consumer app](/consumer/) reads messages from the Kafka bus, 

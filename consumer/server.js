@@ -9,7 +9,7 @@ const {
 } = process.env;
 
 const kafka = new Kafka({
-    clientId: 'u-haul',
+    clientId: 'node-samples',
     brokers: KAFKA_URL.replace(/kafka\+ssl:\/\//g, '').split(','),
     ssl: {
         rejectUnauthorized: false,
