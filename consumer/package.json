@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "kafkajs": "^1.11.0",
-    "knex": "^0.20.1",
+    "knex": "^2.4.0",
     "pg": "^7.12.1"
   },
   "devDependencies": {},
